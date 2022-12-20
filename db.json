@@ -1,9 +1,231 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "categories": [
+    {
+      "id": "75bfe43d-1fef-4997-97e5-23556b095c54",
+      "name": "Health",
+      "createdAt": 1671436706793,
+      "updatedAt": 1671436706793
+    },
+    {
+      "id": "7cb55b7e-3fbe-4fff-b5e9-105c88ce5a0e",
+      "name": "Shoes",
+      "createdAt": 1671436706793,
+      "updatedAt": 1671436706793
+    },
+    {
+      "id": "c2c46915-2a38-4ac1-a047-823e4c68b078",
+      "name": "Movies",
+      "createdAt": 1671436706793,
+      "updatedAt": 1671436706793
+    },
+    {
+      "id": "15120d12-a59e-4d3e-a3b6-a65ee513fc4d",
+      "name": "Jewelery",
+      "createdAt": 1671436706793,
+      "updatedAt": 1671436706793
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "products": [
+    {
+      "categoryId": "75bfe43d-1fef-4997-97e5-23556b095c54",
+      "id": "a7c64c99-6e2d-482c-a682-871644021dd6",
+      "name": "Small Fresh Pizza",
+      "color": "cyan",
+      "price": 710,
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createdAt": 1671436706794,
+      "updatedAt": 1671436706794
+    },
+    {
+      "categoryId": "75bfe43d-1fef-4997-97e5-23556b095c54",
+      "id": "da34f8b4-fb49-414b-a53c-2136185181b7",
+      "name": "Oriental Metal Sausages",
+      "color": "lime",
+      "price": 243,
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createdAt": 1671436706794,
+      "updatedAt": 1671436706794
+    },
+    {
+      "categoryId": "75bfe43d-1fef-4997-97e5-23556b095c54",
+      "id": "5a4cbde2-b2d6-496d-a42a-f33e4e81c589",
+      "name": "Incredible Rubber Shoes",
+      "color": "red",
+      "price": 757,
+      "description": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+      "createdAt": 1671436706794,
+      "updatedAt": 1671436706794
+    },
+    {
+      "categoryId": "75bfe43d-1fef-4997-97e5-23556b095c54",
+      "id": "0e412a24-d885-41c3-ae75-a0ba65907a49",
+      "name": "Fantastic Fresh Car",
+      "color": "black",
+      "price": 510,
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createdAt": 1671436706794,
+      "updatedAt": 1671436706794
+    },
+    {
+      "categoryId": "75bfe43d-1fef-4997-97e5-23556b095c54",
+      "id": "9862267e-b4bf-4fe3-80f9-a79ecb9a3f1c",
+      "name": "Luxurious Fresh Chicken",
+      "color": "ivory",
+      "price": 163,
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "createdAt": 1671436706794,
+      "updatedAt": 1671436706794
+    },
+    {
+      "categoryId": "7cb55b7e-3fbe-4fff-b5e9-105c88ce5a0e",
+      "id": "db7b84b3-b618-425e-b8a3-0c4d54a9d184",
+      "name": "Practical Plastic Computer",
+      "color": "red",
+      "price": 721,
+      "description": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+      "createdAt": 1671436706794,
+      "updatedAt": 1671436706794
+    },
+    {
+      "categoryId": "7cb55b7e-3fbe-4fff-b5e9-105c88ce5a0e",
+      "id": "44c83e30-95df-41c0-9d3e-0dd4d9749493",
+      "name": "Practical Granite Hat",
+      "color": "turquoise",
+      "price": 557,
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createdAt": 1671436706794,
+      "updatedAt": 1671436706794
+    },
+    {
+      "categoryId": "7cb55b7e-3fbe-4fff-b5e9-105c88ce5a0e",
+      "id": "82442182-c502-4cec-ab01-cbf9b935b4a2",
+      "name": "Recycled Steel Salad",
+      "color": "red",
+      "price": 662,
+      "description": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+      "createdAt": 1671436706794,
+      "updatedAt": 1671436706794
+    },
+    {
+      "categoryId": "7cb55b7e-3fbe-4fff-b5e9-105c88ce5a0e",
+      "id": "a64219be-5542-4450-820e-c58388610de7",
+      "name": "Refined Steel Mouse",
+      "color": "lime",
+      "price": 507,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createdAt": 1671436706795,
+      "updatedAt": 1671436706795
+    },
+    {
+      "categoryId": "7cb55b7e-3fbe-4fff-b5e9-105c88ce5a0e",
+      "id": "63f95424-b950-4cb3-9d00-9c1a7769cf05",
+      "name": "Sleek Soft Sausages",
+      "color": "blue",
+      "price": 833,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createdAt": 1671436706795,
+      "updatedAt": 1671436706795
+    },
+    {
+      "categoryId": "c2c46915-2a38-4ac1-a047-823e4c68b078",
+      "id": "eba508c3-64dc-4dd4-adb9-e580e430b230",
+      "name": "Elegant Rubber Table",
+      "color": "tan",
+      "price": 840,
+      "description": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+      "createdAt": 1671436706795,
+      "updatedAt": 1671436706795
+    },
+    {
+      "categoryId": "c2c46915-2a38-4ac1-a047-823e4c68b078",
+      "id": "244b6864-dac1-45dd-8730-e4bfd7ec1db6",
+      "name": "Handcrafted Bronze Mouse",
+      "color": "blue",
+      "price": 299,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createdAt": 1671436706795,
+      "updatedAt": 1671436706795
+    },
+    {
+      "categoryId": "c2c46915-2a38-4ac1-a047-823e4c68b078",
+      "id": "72226cd2-2cee-47a2-90d5-713488b99e49",
+      "name": "Modern Plastic Chair",
+      "color": "salmon",
+      "price": 589,
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createdAt": 1671436706795,
+      "updatedAt": 1671436706795
+    },
+    {
+      "categoryId": "c2c46915-2a38-4ac1-a047-823e4c68b078",
+      "id": "29ea4acd-9288-4037-b896-ac7a4514d14d",
+      "name": "Recycled Fresh Chips",
+      "color": "yellow",
+      "price": 594,
+      "description": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+      "createdAt": 1671436706795,
+      "updatedAt": 1671436706795
+    },
+    {
+      "categoryId": "c2c46915-2a38-4ac1-a047-823e4c68b078",
+      "id": "ad3c3a5b-5fa9-45e9-b6bc-249d2350218c",
+      "name": "Gorgeous Soft Bacon",
+      "color": "plum",
+      "price": 743,
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createdAt": 1671436706796,
+      "updatedAt": 1671436706796
+    },
+    {
+      "categoryId": "15120d12-a59e-4d3e-a3b6-a65ee513fc4d",
+      "id": "34c63edd-f216-4b50-abea-ac6301350b9f",
+      "name": "Sleek Bronze Shirt",
+      "color": "blue",
+      "price": 393,
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createdAt": 1671436706796,
+      "updatedAt": 1671436706796
+    },
+    {
+      "categoryId": "15120d12-a59e-4d3e-a3b6-a65ee513fc4d",
+      "id": "f48017a4-5a11-4058-853a-1708d1388595",
+      "name": "Handcrafted Wooden Pizza",
+      "color": "salmon",
+      "price": 921,
+      "description": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+      "createdAt": 1671436706796,
+      "updatedAt": 1671436706796
+    },
+    {
+      "categoryId": "15120d12-a59e-4d3e-a3b6-a65ee513fc4d",
+      "id": "19083211-5ddd-40ad-ad83-ae396b73a2b3",
+      "name": "Practical Wooden Ball",
+      "color": "indigo",
+      "price": 310,
+      "description": "The Football Is Good For Training And Recreational Purposes",
+      "createdAt": 1671436706796,
+      "updatedAt": 1671436706796
+    },
+    {
+      "categoryId": "15120d12-a59e-4d3e-a3b6-a65ee513fc4d",
+      "id": "a1efd8f5-a6e5-45da-83b0-5d02e5dd2108",
+      "name": "Handcrafted Soft Bacon",
+      "color": "gold",
+      "price": 989,
+      "description": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+      "createdAt": 1671436706796,
+      "updatedAt": 1671436706796
+    },
+    {
+      "categoryId": "15120d12-a59e-4d3e-a3b6-a65ee513fc4d",
+      "id": "504d18e1-1ecf-4744-9a1d-2a5496f36264",
+      "name": "Intelligent Wooden Keyboard",
+      "color": "maroon",
+      "price": 621,
+      "description": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+      "createdAt": 1671436706796,
+      "updatedAt": 1671436706796
+    }
   ],
-  "profile": { "name": "typicode" }
+  "profile": { "name": "foo" }
 }
